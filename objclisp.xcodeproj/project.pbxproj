@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6460D96F172C52E0002C55CA /* libecl.12.12.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6460D96E172C52E0002C55CA /* libecl.12.12.1.dylib */; };
+		6460D973172C6371002C55CA /* LispEnvironment.m in Sources */ = {isa = PBXBuildFile; fileRef = 6460D972172C6371002C55CA /* LispEnvironment.m */; };
+		6460D9A5172C6E15002C55CA /* metering.lisp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6460D976172C6CC6002C55CA /* metering.lisp */; };
+		6460D9A6172C6E15002C55CA /* nregex.lisp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6460D977172C6CC6002C55CA /* nregex.lisp */; };
+		6460D9A7172C6E15002C55CA /* sbcl-pprint-patch.lisp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6460D978172C6CC6002C55CA /* sbcl-pprint-patch.lisp */; };
+		6460D9A8172C6E15002C55CA /* start-swank.lisp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6460D979172C6CC6002C55CA /* start-swank.lisp */; };
+		6460D9A9172C6E15002C55CA /* swank-backend.lisp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6460D97C172C6CC6002C55CA /* swank-backend.lisp */; };
+		6460D9AB172C6E15002C55CA /* swank-ecl.lisp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6460D981172C6CC6002C55CA /* swank-ecl.lisp */; };
+		6460D9AC172C6E15002C55CA /* swank-gray.lisp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6460D982172C6CC6002C55CA /* swank-gray.lisp */; };
+		6460D9AD172C6E15002C55CA /* swank-loader.lisp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6460D984172C6CC6002C55CA /* swank-loader.lisp */; };
+		6460D9AE172C6E15002C55CA /* swank-match.lisp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6460D985172C6CC6002C55CA /* swank-match.lisp */; };
+		6460D9AF172C6E15002C55CA /* swank-rpc.lisp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6460D986172C6CC6002C55CA /* swank-rpc.lisp */; };
+		6460D9B0172C6E15002C55CA /* swank-source-file-cache.lisp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6460D989172C6CC6002C55CA /* swank-source-file-cache.lisp */; };
+		6460D9B1172C6E15002C55CA /* swank-source-path-parser.lisp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6460D98A172C6CC6002C55CA /* swank-source-path-parser.lisp */; };
+		6460D9B2172C6E15002C55CA /* swank.lisp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6460D98B172C6CC6002C55CA /* swank.lisp */; };
+		6460D9B3172C6E15002C55CA /* xref.lisp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6460D98C172C6CC6002C55CA /* xref.lisp */; };
+		6460D9BA172D2367002C55CA /* swank-objc.lisp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6460D9B8172D1E21002C55CA /* swank-objc.lisp */; };
+		64F78B7D1729D1A600BC1E0A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64F78B7C1729D1A600BC1E0A /* Cocoa.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		64F78B871729D1A700BC1E0A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64F78B851729D1A700BC1E0A /* InfoPlist.strings */; };
+		64F78B891729D1A700BC1E0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F78B881729D1A700BC1E0A /* main.m */; };
+		64F78B8D1729D1A700BC1E0A /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 64F78B8B1729D1A700BC1E0A /* Credits.rtf */; };
+		64F78B901729D1A700BC1E0A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F78B8F1729D1A700BC1E0A /* AppDelegate.m */; };
+		64F78B931729D1A700BC1E0A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64F78B911729D1A700BC1E0A /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6460D9A4172C6E00002C55CA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = lisp/swank;
+			dstSubfolderSpec = 7;
+			files = (
+				6460D9BA172D2367002C55CA /* swank-objc.lisp in CopyFiles */,
+				6460D9A5172C6E15002C55CA /* metering.lisp in CopyFiles */,
+				6460D9A6172C6E15002C55CA /* nregex.lisp in CopyFiles */,
+				6460D9A7172C6E15002C55CA /* sbcl-pprint-patch.lisp in CopyFiles */,
+				6460D9A8172C6E15002C55CA /* start-swank.lisp in CopyFiles */,
+				6460D9A9172C6E15002C55CA /* swank-backend.lisp in CopyFiles */,
+				6460D9AB172C6E15002C55CA /* swank-ecl.lisp in CopyFiles */,
+				6460D9AC172C6E15002C55CA /* swank-gray.lisp in CopyFiles */,
+				6460D9AD172C6E15002C55CA /* swank-loader.lisp in CopyFiles */,
+				6460D9AE172C6E15002C55CA /* swank-match.lisp in CopyFiles */,
+				6460D9AF172C6E15002C55CA /* swank-rpc.lisp in CopyFiles */,
+				6460D9B0172C6E15002C55CA /* swank-source-file-cache.lisp in CopyFiles */,
+				6460D9B1172C6E15002C55CA /* swank-source-path-parser.lisp in CopyFiles */,
+				6460D9B2172C6E15002C55CA /* swank.lisp in CopyFiles */,
+				6460D9B3172C6E15002C55CA /* xref.lisp in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6460D96E172C52E0002C55CA /* libecl.12.12.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libecl.12.12.1.dylib; path = "../../../../programs/ecl-12.12.1/lib/libecl.12.12.1.dylib"; sourceTree = "<group>"; };
+		6460D971172C6371002C55CA /* LispEnvironment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LispEnvironment.h; sourceTree = "<group>"; };
+		6460D972172C6371002C55CA /* LispEnvironment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LispEnvironment.m; sourceTree = "<group>"; };
+		6460D976172C6CC6002C55CA /* metering.lisp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = metering.lisp; sourceTree = "<group>"; };
+		6460D977172C6CC6002C55CA /* nregex.lisp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = nregex.lisp; sourceTree = "<group>"; };
+		6460D978172C6CC6002C55CA /* sbcl-pprint-patch.lisp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sbcl-pprint-patch.lisp"; sourceTree = "<group>"; };
+		6460D979172C6CC6002C55CA /* start-swank.lisp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "start-swank.lisp"; sourceTree = "<group>"; };
+		6460D97C172C6CC6002C55CA /* swank-backend.lisp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "swank-backend.lisp"; sourceTree = "<group>"; };
+		6460D981172C6CC6002C55CA /* swank-ecl.lisp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "swank-ecl.lisp"; sourceTree = "<group>"; };
+		6460D982172C6CC6002C55CA /* swank-gray.lisp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "swank-gray.lisp"; sourceTree = "<group>"; };
+		6460D984172C6CC6002C55CA /* swank-loader.lisp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "swank-loader.lisp"; sourceTree = "<group>"; };
+		6460D985172C6CC6002C55CA /* swank-match.lisp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "swank-match.lisp"; sourceTree = "<group>"; };
+		6460D986172C6CC6002C55CA /* swank-rpc.lisp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "swank-rpc.lisp"; sourceTree = "<group>"; };
+		6460D989172C6CC6002C55CA /* swank-source-file-cache.lisp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "swank-source-file-cache.lisp"; sourceTree = "<group>"; };
+		6460D98A172C6CC6002C55CA /* swank-source-path-parser.lisp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "swank-source-path-parser.lisp"; sourceTree = "<group>"; };
+		6460D98B172C6CC6002C55CA /* swank.lisp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = swank.lisp; sourceTree = "<group>"; };
+		6460D98C172C6CC6002C55CA /* xref.lisp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = xref.lisp; sourceTree = "<group>"; };
+		6460D9B8172D1E21002C55CA /* swank-objc.lisp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "swank-objc.lisp"; sourceTree = "<group>"; };
+		64F78B781729D1A600BC1E0A /* objclisp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = objclisp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64F78B7C1729D1A600BC1E0A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		64F78B7F1729D1A600BC1E0A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		64F78B801729D1A600BC1E0A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		64F78B811729D1A600BC1E0A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		64F78B841729D1A700BC1E0A /* objclisp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "objclisp-Info.plist"; sourceTree = "<group>"; };
+		64F78B861729D1A700BC1E0A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		64F78B881729D1A700BC1E0A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		64F78B8A1729D1A700BC1E0A /* objclisp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "objclisp-Prefix.pch"; sourceTree = "<group>"; };
+		64F78B8C1729D1A700BC1E0A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		64F78B8E1729D1A700BC1E0A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		64F78B8F1729D1A700BC1E0A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		64F78B921729D1A700BC1E0A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64F78B751729D1A600BC1E0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6460D96F172C52E0002C55CA /* libecl.12.12.1.dylib in Frameworks */,
+				64F78B7D1729D1A600BC1E0A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6460D970172C62E4002C55CA /* integration */ = {
+			isa = PBXGroup;
+			children = (
+				6460D971172C6371002C55CA /* LispEnvironment.h */,
+				6460D972172C6371002C55CA /* LispEnvironment.m */,
+			);
+			path = integration;
+			sourceTree = "<group>";
+		};
+		6460D974172C6C6A002C55CA /* lisp */ = {
+			isa = PBXGroup;
+			children = (
+				6460D975172C6C6A002C55CA /* swank */,
+			);
+			path = lisp;
+			sourceTree = "<group>";
+		};
+		6460D975172C6C6A002C55CA /* swank */ = {
+			isa = PBXGroup;
+			children = (
+				6460D9B8172D1E21002C55CA /* swank-objc.lisp */,
+				6460D976172C6CC6002C55CA /* metering.lisp */,
+				6460D977172C6CC6002C55CA /* nregex.lisp */,
+				6460D978172C6CC6002C55CA /* sbcl-pprint-patch.lisp */,
+				6460D979172C6CC6002C55CA /* start-swank.lisp */,
+				6460D97C172C6CC6002C55CA /* swank-backend.lisp */,
+				6460D981172C6CC6002C55CA /* swank-ecl.lisp */,
+				6460D982172C6CC6002C55CA /* swank-gray.lisp */,
+				6460D984172C6CC6002C55CA /* swank-loader.lisp */,
+				6460D985172C6CC6002C55CA /* swank-match.lisp */,
+				6460D986172C6CC6002C55CA /* swank-rpc.lisp */,
+				6460D989172C6CC6002C55CA /* swank-source-file-cache.lisp */,
+				6460D98A172C6CC6002C55CA /* swank-source-path-parser.lisp */,
+				6460D98B172C6CC6002C55CA /* swank.lisp */,
+				6460D98C172C6CC6002C55CA /* xref.lisp */,
+			);
+			path = swank;
+			sourceTree = "<group>";
+		};
+		64F78B6D1729D1A600BC1E0A = {
+			isa = PBXGroup;
+			children = (
+				6460D974172C6C6A002C55CA /* lisp */,
+				6460D970172C62E4002C55CA /* integration */,
+				64F78B821729D1A600BC1E0A /* objclisp */,
+				64F78B7B1729D1A600BC1E0A /* Frameworks */,
+				64F78B791729D1A600BC1E0A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64F78B791729D1A600BC1E0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64F78B781729D1A600BC1E0A /* objclisp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64F78B7B1729D1A600BC1E0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6460D96E172C52E0002C55CA /* libecl.12.12.1.dylib */,
+				64F78B7C1729D1A600BC1E0A /* Cocoa.framework */,
+				64F78B7E1729D1A600BC1E0A /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64F78B7E1729D1A600BC1E0A /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64F78B7F1729D1A600BC1E0A /* AppKit.framework */,
+				64F78B801729D1A600BC1E0A /* CoreData.framework */,
+				64F78B811729D1A600BC1E0A /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		64F78B821729D1A600BC1E0A /* objclisp */ = {
+			isa = PBXGroup;
+			children = (
+				64F78B8E1729D1A700BC1E0A /* AppDelegate.h */,
+				64F78B8F1729D1A700BC1E0A /* AppDelegate.m */,
+				64F78B911729D1A700BC1E0A /* MainMenu.xib */,
+				64F78B831729D1A700BC1E0A /* Supporting Files */,
+			);
+			path = objclisp;
+			sourceTree = "<group>";
+		};
+		64F78B831729D1A700BC1E0A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64F78B841729D1A700BC1E0A /* objclisp-Info.plist */,
+				64F78B851729D1A700BC1E0A /* InfoPlist.strings */,
+				64F78B881729D1A700BC1E0A /* main.m */,
+				64F78B8A1729D1A700BC1E0A /* objclisp-Prefix.pch */,
+				64F78B8B1729D1A700BC1E0A /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64F78B771729D1A600BC1E0A /* objclisp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64F78B961729D1A700BC1E0A /* Build configuration list for PBXNativeTarget "objclisp" */;
+			buildPhases = (
+				64F78B741729D1A600BC1E0A /* Sources */,
+				64F78B751729D1A600BC1E0A /* Frameworks */,
+				64F78B761729D1A600BC1E0A /* Resources */,
+				6460D9A4172C6E00002C55CA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = objclisp;
+			productName = objclisp;
+			productReference = 64F78B781729D1A600BC1E0A /* objclisp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64F78B6F1729D1A600BC1E0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Anil Mamede";
+			};
+			buildConfigurationList = 64F78B721729D1A600BC1E0A /* Build configuration list for PBXProject "objclisp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 64F78B6D1729D1A600BC1E0A;
+			productRefGroup = 64F78B791729D1A600BC1E0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64F78B771729D1A600BC1E0A /* objclisp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64F78B761729D1A600BC1E0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64F78B871729D1A700BC1E0A /* InfoPlist.strings in Resources */,
+				64F78B8D1729D1A700BC1E0A /* Credits.rtf in Resources */,
+				64F78B931729D1A700BC1E0A /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64F78B741729D1A600BC1E0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64F78B891729D1A700BC1E0A /* main.m in Sources */,
+				64F78B901729D1A700BC1E0A /* AppDelegate.m in Sources */,
+				6460D973172C6371002C55CA /* LispEnvironment.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		64F78B851729D1A700BC1E0A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64F78B861729D1A700BC1E0A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		64F78B8B1729D1A700BC1E0A /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64F78B8C1729D1A700BC1E0A /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		64F78B911729D1A700BC1E0A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64F78B921729D1A700BC1E0A /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64F78B941729D1A700BC1E0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		64F78B951729D1A700BC1E0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		64F78B971729D1A700BC1E0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "objclisp/objclisp-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../../../programs/ecl-12.12.1/include\"";
+				INFOPLIST_FILE = "objclisp/objclisp-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../programs/ecl-12.12.1/lib\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		64F78B981729D1A700BC1E0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "objclisp/objclisp-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../../../programs/ecl-12.12.1/include\"";
+				INFOPLIST_FILE = "objclisp/objclisp-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../programs/ecl-12.12.1/lib\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64F78B721729D1A600BC1E0A /* Build configuration list for PBXProject "objclisp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64F78B941729D1A700BC1E0A /* Debug */,
+				64F78B951729D1A700BC1E0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64F78B961729D1A700BC1E0A /* Build configuration list for PBXNativeTarget "objclisp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64F78B971729D1A700BC1E0A /* Debug */,
+				64F78B981729D1A700BC1E0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64F78B6F1729D1A600BC1E0A /* Project object */;
+}
